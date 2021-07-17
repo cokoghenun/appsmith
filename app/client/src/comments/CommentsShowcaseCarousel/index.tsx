@@ -49,13 +49,13 @@ const introSteps = [
   {
     title: "Tag a comment to a widget",
     content:
-      "If you click on a component while in a comment mode you will tag that comment to that widget. This way if the widget is moved the comment will be moved as well. You can disconnect the comment and widget y simply moving the the comment away from the widget.",
+      "If you click on a component while in a comment mode you will tag that comment to that widget. This way if the widget is moved the comment will be moved as well. You can disconnect the comment and widget by simply moving the the comment away from the widget.",
     banner: getBanner(4),
   },
   {
     title: "You are all set!",
     content:
-      "By clicking on the comments icon in the top right corner you will activate the ‘collaboration mode’ and will be able to start a thread or answer to someone else’s comment.",
+      "By clicking on the comments icon in the top right corner you will activate the 'comment mode’ and will be able to start a thread or answer to someone else’s comment.",
     banner: getBanner(5),
   },
 ];
