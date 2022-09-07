@@ -7,959 +7,959 @@
   },
   "dateFns": {
     "add": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "315[6:86]-318[6:89]"
     },
     "addBusinessDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "322[6:93]-337[6:108]"
     },
     "addDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "341[6:112]-348[6:119]"
     },
     "addHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "352[6:123]-360[6:131]"
     },
     "addISOWeekYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "364[6:135]-379[6:150]"
     },
     "addMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "383[6:154]-398[6:169]"
     },
     "addMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "402[6:173]-412[6:183]"
     },
     "addMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "416[6:187]-425[6:196]"
     },
     "addQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "429[6:200]-440[6:211]"
     },
     "addSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "444[6:215]-454[6:225]"
     },
     "addWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "458[6:229]-466[6:237]"
     },
     "addYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "470[6:241]-478[6:249]"
     },
     "areIntervalsOverlapping": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "482[6:253]-505[6:276]"
     },
     "clamp": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "509[6:280]-514[6:285]"
     },
     "closestIndexTo": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "518[6:289]-532[6:303]"
     },
     "closestTo": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "536[6:307]-545[6:316]"
     },
     "compareAsc": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "549[6:320]-559[6:330]"
     },
     "compareDesc": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "563[6:334]-574[6:345]"
     },
     "daysToWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "578[6:349]-589[6:360]"
     },
     "differenceInBusinessDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "593[6:364]-617[6:388]"
     },
     "differenceInCalendarDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "621[6:392]-645[6:416]"
     },
     "differenceInCalendarISOWeekYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "649[6:420]-681[6:452]"
     },
     "differenceInCalendarISOWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "685[6:456]-713[6:484]"
     },
     "differenceInCalendarMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "717[6:488]-743[6:514]"
     },
     "differenceInCalendarQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "747[6:518]-775[6:546]"
     },
     "differenceInCalendarWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "779[6:550]-804[6:575]"
     },
     "differenceInCalendarYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "808[6:579]-833[6:604]"
     },
     "differenceInDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "837[6:608]-853[6:624]"
     },
     "differenceInHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "857[6:628]-874[6:645]"
     },
     "differenceInISOWeekYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "878[6:649]-902[6:673]"
     },
     "differenceInMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "906[6:677]-930[6:701]"
     },
     "differenceInMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "934[6:705]-953[6:724]"
     },
     "differenceInMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "957[6:728]-975[6:746]"
     },
     "differenceInQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "979[6:750]-999[6:770]"
     },
     "differenceInSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1003[6:774]-1022[6:793]"
     },
     "differenceInWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1026[6:797]-1043[6:814]"
     },
     "differenceInYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1047[6:818]-1064[6:835]"
     },
     "eachDayOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1068[6:839]-1085[6:856]"
     },
     "eachHourOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1089[6:860]-1107[6:878]"
     },
     "eachMinuteOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1111[6:882]-1131[6:902]"
     },
     "eachMonthOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1135[6:906]-1154[6:925]"
     },
     "eachQuarterOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1158[6:929]-1179[6:950]"
     },
     "eachWeekOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1183[6:954]-1201[6:972]"
     },
     "eachWeekendOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1205[6:976]-1226[6:997]"
     },
     "eachWeekendOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1230[6:1001]-1248[6:1019]"
     },
     "eachWeekendOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1252[6:1023]-1269[6:1040]"
     },
     "eachYearOfInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1273[6:1044]-1291[6:1062]"
     },
     "endOfDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1295[6:1066]-1303[6:1074]"
     },
     "endOfDecade": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1307[6:1078]-1318[6:1089]"
     },
     "endOfHour": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1322[6:1093]-1331[6:1102]"
     },
     "endOfISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1335[6:1106]-1347[6:1118]"
     },
     "endOfISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1351[6:1122]-1367[6:1138]"
     },
     "endOfMinute": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1371[6:1142]-1382[6:1153]"
     },
     "endOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1386[6:1157]-1396[6:1167]"
     },
     "endOfQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1400[6:1171]-1412[6:1183]"
     },
     "endOfSecond": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1416[6:1187]-1427[6:1198]"
     },
     "endOfToday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1431[6:1202]-1441[6:1212]"
     },
     "endOfTomorrow": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1445[6:1216]-1458[6:1229]"
     },
     "endOfWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1462[6:1233]-1471[6:1242]"
     },
     "endOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1475[6:1246]-1484[6:1255]"
     },
     "endOfYesterday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1488[6:1259]-1502[6:1273]"
     },
     "format": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1506[6:1277]-1512[6:1283]"
     },
     "formatDistance": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1516[6:1287]-1530[6:1301]"
     },
     "formatDistanceStrict": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1534[6:1305]-1554[6:1325]"
     },
     "formatDistanceToNow": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1558[6:1329]-1577[6:1348]"
     },
     "formatDistanceToNowStrict": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1581[6:1352]-1606[6:1377]"
     },
     "formatDuration": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1610[6:1381]-1624[6:1395]"
     },
     "formatISO": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1628[6:1399]-1637[6:1408]"
     },
     "formatISO9075": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1641[6:1412]-1654[6:1425]"
     },
     "formatISODuration": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1658[6:1429]-1675[6:1446]"
     },
     "formatRFC3339": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1679[6:1450]-1692[6:1463]"
     },
     "formatRFC7231": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1696[6:1467]-1709[6:1480]"
     },
     "formatRelative": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1713[6:1484]-1727[6:1498]"
     },
     "fromUnixTime": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1731[6:1502]-1743[6:1514]"
     },
     "getDate": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1747[6:1518]-1754[6:1525]"
     },
     "getDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1758[6:1529]-1764[6:1535]"
     },
     "getDayOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1768[6:1539]-1780[6:1551]"
     },
     "getDaysInMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1784[6:1555]-1798[6:1569]"
     },
     "getDaysInYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1802[6:1573]-1815[6:1586]"
     },
     "getDecade": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1819[6:1590]-1828[6:1599]"
     },
     "getDefaultOptions": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1832[6:1603]-1849[6:1620]"
     },
     "getHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1853[6:1624]-1861[6:1632]"
     },
     "getISODay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1865[6:1636]-1874[6:1645]"
     },
     "getISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1878[6:1649]-1888[6:1659]"
     },
     "getISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1892[6:1663]-1906[6:1677]"
     },
     "getISOWeeksInYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1910[6:1681]-1927[6:1698]"
     },
     "getMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1931[6:1702]-1946[6:1717]"
     },
     "getMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1950[6:1721]-1960[6:1731]"
     },
     "getMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1964[6:1735]-1972[6:1743]"
     },
     "getOverlappingDaysInIntervals": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "1976[6:1747]-2005[6:1776]"
     },
     "getQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2009[6:1780]-2019[6:1790]"
     },
     "getSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2023[6:1794]-2033[6:1804]"
     },
     "getTime": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2037[6:1808]-2044[6:1815]"
     },
     "getUnixTime": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2048[6:1819]-2059[6:1830]"
     },
     "getWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2063[6:1834]-2070[6:1841]"
     },
     "getWeekOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2074[6:1845]-2088[6:1859]"
     },
     "getWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2092[6:1863]-2103[6:1874]"
     },
     "getWeeksInMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2107[6:1878]-2122[6:1893]"
     },
     "getYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2126[6:1897]-2133[6:1904]"
     },
     "hoursToMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2137[6:1908]-2156[6:1927]"
     },
     "hoursToMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2160[6:1931]-2174[6:1945]"
     },
     "hoursToSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2178[6:1949]-2192[6:1963]"
     },
     "intervalToDuration": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2196[6:1967]-2214[6:1985]"
     },
     "intlFormat": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2218[6:1989]-2228[6:1999]"
     },
     "intlFormatDistance": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2232[6:2003]-2250[6:2021]"
     },
     "isAfter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2254[6:2025]-2261[6:2032]"
     },
     "isBefore": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2265[6:2036]-2273[6:2044]"
     },
     "isDate": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2277[6:2048]-2283[6:2054]"
     },
     "isEqual": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2287[6:2058]-2294[6:2065]"
     },
     "isExists": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2298[6:2069]-2306[6:2077]"
     },
     "isFirstDayOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2310[6:2081]-2327[6:2098]"
     },
     "isFriday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2331[6:2102]-2339[6:2110]"
     },
     "isFuture": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2343[6:2114]-2351[6:2122]"
     },
     "isLastDayOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2355[6:2126]-2371[6:2142]"
     },
     "isLeapYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2375[6:2146]-2385[6:2156]"
     },
     "isMatch": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2389[6:2160]-2396[6:2167]"
     },
     "isMonday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2400[6:2171]-2408[6:2179]"
     },
     "isPast": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2412[6:2183]-2418[6:2189]"
     },
     "isSameDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2422[6:2193]-2431[6:2202]"
     },
     "isSameHour": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2435[6:2206]-2445[6:2216]"
     },
     "isSameISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2449[6:2220]-2462[6:2233]"
     },
     "isSameISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2466[6:2237]-2483[6:2254]"
     },
     "isSameMinute": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2487[6:2258]-2499[6:2270]"
     },
     "isSameMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2503[6:2274]-2514[6:2285]"
     },
     "isSameQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2518[6:2289]-2531[6:2302]"
     },
     "isSameSecond": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2535[6:2306]-2547[6:2318]"
     },
     "isSameWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2551[6:2322]-2561[6:2332]"
     },
     "isSameYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2565[6:2336]-2575[6:2346]"
     },
     "isSaturday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2579[6:2350]-2589[6:2360]"
     },
     "isSunday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2593[6:2364]-2601[6:2372]"
     },
     "isThisHour": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2605[6:2376]-2615[6:2386]"
     },
     "isThisISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2619[6:2390]-2632[6:2403]"
     },
     "isThisMinute": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2636[6:2407]-2648[6:2419]"
     },
     "isThisMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2652[6:2423]-2663[6:2434]"
     },
     "isThisQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2667[6:2438]-2680[6:2451]"
     },
     "isThisSecond": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2684[6:2455]-2696[6:2467]"
     },
     "isThisWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2700[6:2471]-2710[6:2481]"
     },
     "isThisYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2714[6:2485]-2724[6:2495]"
     },
     "isThursday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2728[6:2499]-2738[6:2509]"
     },
     "isToday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2742[6:2513]-2749[6:2520]"
     },
     "isTomorrow": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2753[6:2524]-2763[6:2534]"
     },
     "isTuesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2767[6:2538]-2776[6:2547]"
     },
     "isValid": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2780[6:2551]-2787[6:2558]"
     },
     "isWednesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2791[6:2562]-2802[6:2573]"
     },
     "isWeekend": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2806[6:2577]-2815[6:2586]"
     },
     "isWithinInterval": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2819[6:2590]-2835[6:2606]"
     },
     "isYesterday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2839[6:2610]-2850[6:2621]"
     },
     "lastDayOfDecade": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2854[6:2625]-2869[6:2640]"
     },
     "lastDayOfISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2873[6:2644]-2889[6:2660]"
     },
     "lastDayOfISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2893[6:2664]-2913[6:2684]"
     },
     "lastDayOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2917[6:2688]-2931[6:2702]"
     },
     "lastDayOfQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2935[6:2706]-2951[6:2722]"
     },
     "lastDayOfWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2955[6:2726]-2968[6:2739]"
     },
     "lastDayOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2972[6:2743]-2985[6:2756]"
     },
     "lightFormat": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "2989[6:2760]-3000[6:2771]"
     },
     "max": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3004[6:2775]-3007[6:2778]"
     },
     "milliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3011[6:2782]-3023[6:2794]"
     },
     "millisecondsToHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3027[6:2798]-3046[6:2817]"
     },
     "millisecondsToMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3050[6:2821]-3071[6:2842]"
     },
     "millisecondsToSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3075[6:2846]-3096[6:2867]"
     },
     "min": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3100[6:2871]-3103[6:2874]"
     },
     "minutesToHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3107[6:2878]-3121[6:2892]"
     },
     "minutesToMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3125[6:2896]-3146[6:2917]"
     },
     "minutesToSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3150[6:2921]-3166[6:2937]"
     },
     "monthsToQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3170[6:2941]-3186[6:2957]"
     },
     "monthsToYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3190[6:2961]-3203[6:2974]"
     },
     "nextDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3207[6:2978]-3214[6:2985]"
     },
     "nextFriday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3218[6:2989]-3228[6:2999]"
     },
     "nextMonday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3232[6:3003]-3242[6:3013]"
     },
     "nextSaturday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3246[6:3017]-3258[6:3029]"
     },
     "nextSunday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3262[6:3033]-3272[6:3043]"
     },
     "nextThursday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3276[6:3047]-3288[6:3059]"
     },
     "nextTuesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3292[6:3063]-3303[6:3074]"
     },
     "nextWednesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3307[6:3078]-3320[6:3091]"
     },
     "parse": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3324[6:3095]-3329[6:3100]"
     },
     "parseISO": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3333[6:3104]-3341[6:3112]"
     },
     "parseJSON": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3345[6:3116]-3354[6:3125]"
     },
     "previousDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3358[6:3129]-3369[6:3140]"
     },
     "previousFriday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3373[6:3144]-3387[6:3158]"
     },
     "previousMonday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3391[6:3162]-3405[6:3176]"
     },
     "previousSaturday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3409[6:3180]-3425[6:3196]"
     },
     "previousSunday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3429[6:3200]-3443[6:3214]"
     },
     "previousThursday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3447[6:3218]-3463[6:3234]"
     },
     "previousTuesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3467[6:3238]-3482[6:3253]"
     },
     "previousWednesday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3486[6:3257]-3503[6:3274]"
     },
     "quartersToMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3507[6:3278]-3523[6:3294]"
     },
     "quartersToYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3527[6:3298]-3542[6:3313]"
     },
     "roundToNearestMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3546[6:3317]-3567[6:3338]"
     },
     "secondsToHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3571[6:3342]-3585[6:3356]"
     },
     "secondsToMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3589[6:3360]-3610[6:3381]"
     },
     "secondsToMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3614[6:3385]-3630[6:3401]"
     },
     "set": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3634[6:3405]-3637[6:3408]"
     },
     "setDate": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3641[6:3412]-3648[6:3419]"
     },
     "setDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3652[6:3423]-3658[6:3429]"
     },
     "setDayOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3662[6:3433]-3674[6:3445]"
     },
     "setDefaultOptions": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3678[6:3449]-3695[6:3466]"
     },
     "setHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3699[6:3470]-3707[6:3478]"
     },
     "setISODay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3711[6:3482]-3720[6:3491]"
     },
     "setISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3724[6:3495]-3734[6:3505]"
     },
     "setISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3738[6:3509]-3752[6:3523]"
     },
     "setMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3756[6:3527]-3771[6:3542]"
     },
     "setMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3775[6:3546]-3785[6:3556]"
     },
     "setMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3789[6:3560]-3797[6:3568]"
     },
     "setQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3801[6:3572]-3811[6:3582]"
     },
     "setSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3815[6:3586]-3825[6:3596]"
     },
     "setWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3829[6:3600]-3836[6:3607]"
     },
     "setWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3840[6:3611]-3851[6:3622]"
     },
     "setYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3855[6:3626]-3862[6:3633]"
     },
     "startOfDay": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3866[6:3637]-3876[6:3647]"
     },
     "startOfDecade": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3880[6:3651]-3893[6:3664]"
     },
     "startOfHour": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3897[6:3668]-3908[6:3679]"
     },
     "startOfISOWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3912[6:3683]-3926[6:3697]"
     },
     "startOfISOWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3930[6:3701]-3948[6:3719]"
     },
     "startOfMinute": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3952[6:3723]-3965[6:3736]"
     },
     "startOfMonth": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3969[6:3740]-3981[6:3752]"
     },
     "startOfQuarter": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "3985[6:3756]-3999[6:3770]"
     },
     "startOfSecond": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4003[6:3774]-4016[6:3787]"
     },
     "startOfToday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4020[6:3791]-4032[6:3803]"
     },
     "startOfTomorrow": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4036[6:3807]-4051[6:3822]"
     },
     "startOfWeek": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4055[6:3826]-4066[6:3837]"
     },
     "startOfWeekYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4070[6:3841]-4085[6:3856]"
     },
     "startOfYear": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4089[6:3860]-4100[6:3871]"
     },
     "startOfYesterday": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4104[6:3875]-4120[6:3891]"
     },
     "sub": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4124[6:3895]-4127[6:3898]"
     },
     "subBusinessDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4131[6:3902]-4146[6:3917]"
     },
     "subDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4150[6:3921]-4157[6:3928]"
     },
     "subHours": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4161[6:3932]-4169[6:3940]"
     },
     "subISOWeekYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4173[6:3944]-4188[6:3959]"
     },
     "subMilliseconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4192[6:3963]-4207[6:3978]"
     },
     "subMinutes": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4211[6:3982]-4221[6:3992]"
     },
     "subMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4225[6:3996]-4234[6:4005]"
     },
     "subQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4238[6:4009]-4249[6:4020]"
     },
     "subSeconds": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4253[6:4024]-4263[6:4034]"
     },
     "subWeeks": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4267[6:4038]-4275[6:4046]"
     },
     "subYears": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4279[6:4050]-4287[6:4058]"
     },
     "toDate": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4291[6:4062]-4297[6:4068]"
     },
     "weeksToDays": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4301[6:4072]-4312[6:4083]"
     },
     "yearsToMonths": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4316[6:4087]-4329[6:4100]"
     },
     "yearsToQuarters": {
-      "!type": "bool",
+      "!type": "fn(e: ?) -> !0",
       "!span": "4333[6:4104]-4348[6:4119]"
     },
     "!span": "301[6:72]-313[6:84]"
