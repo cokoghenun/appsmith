@@ -14,6 +14,7 @@ import forge from "node-forge";
 import { DataTreeEntity } from "entities/DataTree/dataTreeFactory";
 import { getType, Types } from "./TypeHelpers";
 import { ViewTypes } from "components/formControls/utils";
+import * as dateFns from "date-fns";
 
 export type DependencyMap = Record<string, Array<string>>;
 export type FormEditorConfigs = Record<string, any[]>;
@@ -184,6 +185,13 @@ export const extraLibraries: ExtraLibrary[] = [
     version: "1.3.0",
     docsURL: "https://github.com/digitalbazaar/forge",
     displayName: "forge",
+  },
+  {
+    accessor: "dateFns",
+    lib: dateFns,
+    version: "^2.29.2",
+    docsURL: "https://github.com/date-fns/date-fns",
+    displayName: "dateFns",
   },
 ];
 
