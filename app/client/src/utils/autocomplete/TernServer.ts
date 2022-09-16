@@ -8,6 +8,7 @@ import moment from "constants/defs/moment.json";
 import xmlJs from "constants/defs/xmlParser.json";
 import forge from "constants/defs/forge.json";
 import dateFns from "constants/defs/dateFns.json";
+import chance from "constants/defs/chance.json";
 import browser from "constants/defs/browser.json";
 import CodeMirror, { Hint, Pos, cmpPos } from "codemirror";
 import {
@@ -26,6 +27,7 @@ import { getCompletionsForKeyword } from "./keywordCompletion";
 const DEFS: Def[] = [
   // @ts-expect-error: Types are not available
   ecma,
+  chance,
   dateFns,
   browser,
   GLOBAL_FUNCTIONS,

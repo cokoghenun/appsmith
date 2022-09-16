@@ -1,0 +1,801 @@
+{
+  "!name": "chance",
+  "!define": {
+    "exports.prototype.floating.!0": {
+      "fixed": {
+        "!type": "number",
+        "!span": "30362[0:30362]-30367[0:30367]"
+      },
+      "!span": "30341[0:30341]-30370[0:30370]"
+    },
+    "exports.prototype.unique.!2": {
+      "comparator": {
+        "!type": "fn(a: [?], e: ?) -> bool",
+        "!span": "30142[0:30142]-30152[0:30152]"
+      },
+      "!span": "30141[0:30141]-30229[0:30229]"
+    },
+    "exports.prototype.unique.!2.comparator.!0": "[?]",
+    "exports.prototype.unique.!ret": "[?]",
+    "exports.prototype.n.!ret": "[?]",
+    "exports.prototype.pick.!0": "[string, string, string, string, string]",
+    "exports.prototype.pickset.!ret": "[?]",
+    "exports.prototype.shuffle.!ret": "[?]",
+    "exports.prototype.weighted.!0": "[string]",
+    "exports.prototype.weighted.!1": "[number]",
+    "exports.prototype.age.!0": {
+      "type": {
+        "!type": "string",
+        "!span": "9624[0:9624]-9628[0:9628]"
+      },
+      "!span": "9623[0:9623]-9637[0:9637]"
+    },
+    "exports.prototype.first.!0": {
+      "gender": {
+        "!type": "string",
+        "!span": "31784[0:31784]-31790[0:31790]"
+      },
+      "nationality": {
+        "!type": "string",
+        "!span": "31793[0:31793]-31804[0:31804]"
+      },
+      "!span": "31783[0:31783]-31810[0:31810]"
+    },
+    "exports.prototype.last.!0": {
+      "nationality": {
+        "!type": "string",
+        "!span": "31839[0:31839]-31850[0:31850]"
+      },
+      "!span": "31838[0:31838]-31856[0:31856]"
+    },
+    "exports.prototype.name_prefixes.!ret": "[?]",
+    "exports.prototype.name_prefixes.!ret.<i>": {
+      "name": {
+        "!type": "string",
+        "!span": "10832[0:10832]-10836[0:10836]"
+      },
+      "abbreviation": {
+        "!type": "string",
+        "!span": "10846[0:10846]-10858[0:10858]"
+      },
+      "!span": "10831[0:10831]-10866[0:10866]"
+    },
+    "exports.prototype.name_suffixes.!ret": "[?]",
+    "exports.prototype.name_suffixes.!ret.<i>": {
+      "name": {
+        "!type": "string",
+        "!span": "12156[0:12156]-12160[0:12160]"
+      },
+      "abbreviation": {
+        "!type": "string",
+        "!span": "12186[0:12186]-12198[0:12198]"
+      },
+      "!span": "12155[0:12155]-12208[0:12208]"
+    },
+    "exports.prototype.tlds.!ret": "[string]",
+    "exports.prototype.areacode.!0": {
+      "parens": {
+        "!type": "bool",
+        "!span": "20775[0:20775]-20781[0:20781]"
+      }
+    },
+    "exports.prototype.provinces.!0": {
+      "country": {
+        "!type": "string",
+        "!span": "31632[0:31632]-31639[0:31639]"
+      },
+      "!span": "31631[0:31631]-31645[0:31645]"
+    },
+    "exports.prototype.states.!ret": "[?]",
+    "exports.prototype.hour.!0": {
+      "twentyfour": {
+        "!type": "bool",
+        "!span": "27196[0:27196]-27206[0:27206]"
+      },
+      "!span": "27195[0:27195]-27210[0:27210]"
+    },
+    "exports.prototype.month.!0": {
+      "raw": {
+        "!type": "bool",
+        "!span": "30965[0:30965]-30968[0:30968]"
+      },
+      "!span": "30964[0:30964]-30972[0:30972]"
+    },
+    "exports.prototype.year.!0": {
+      "min": {
+        "!type": "number",
+        "!span": "31099[0:31099]-31102[0:31102]"
+      },
+      "max": {
+        "!type": "number",
+        "!span": "31116[0:31116]-31119[0:31119]"
+      },
+      "!span": "31098[0:31098]-31125[0:31125]"
+    },
+    "exports.prototype.cc_type.!0": {
+      "raw": {
+        "!type": "bool",
+        "!span": "29269[0:29269]-29272[0:29272]"
+      },
+      "!span": "29268[0:29268]-29276[0:29276]"
+    },
+    "exports.prototype.exp_month.!0": {
+      "future": {
+        "!type": "bool",
+        "!span": "30723[0:30723]-30729[0:30729]"
+      },
+      "!span": "30722[0:30722]-30733[0:30733]"
+    },
+    "exports.prototype.rpg.!1": {
+      "!type": "fn(a: bool, e: string)",
+      "!span": "693[0:693]-738[0:738]"
+    },
+    "exports.prototype.rpg.!ret": "[number]",
+    "exports.prototype.mac_address.!0": {
+      "separator": {
+        "!type": "string",
+        "!span": "167240[0:167240]-167249[0:167249]"
+      }
+    },
+    "exports.prototype.normal.!0": {
+      "!span": "167997[0:167997]-168020[0:168020]"
+    },
+    "exports.prototype.mersenne_twister.!ret": {
+      "N": {
+        "!type": "number",
+        "!span": "169131[0:169131]-169132[0:169132]"
+      },
+      "M": {
+        "!type": "number",
+        "!span": "169142[0:169142]-169143[0:169143]"
+      },
+      "MATRIX_A": {
+        "!type": "number",
+        "!span": "169153[0:169153]-169161[0:169161]"
+      },
+      "UPPER_MASK": {
+        "!type": "number",
+        "!span": "169178[0:169178]-169188[0:169188]"
+      },
+      "LOWER_MASK": {
+        "!type": "number",
+        "!span": "169205[0:169205]-169215[0:169215]"
+      },
+      "mt": {
+        "!type": "[number]",
+        "!span": "169232[0:169232]-169234[0:169234]"
+      },
+      "mti": {
+        "!type": "number",
+        "!span": "169258[0:169258]-169261[0:169261]"
+      }
+    }
+  },
+  "animalTypeArray": {
+    "!type": "[string]",
+    "!span": "1762[0:1762]-1777[0:1777]"
+  },
+  "exports": {
+    "prototype": {
+      "VERSION": {
+        "!type": "string",
+        "!span": "1153[0:1153]-1160[0:1160]"
+      },
+      "bool": {
+        "!type": "fn(a: ?) -> bool",
+        "!span": "1363[0:1363]-1367[0:1367]"
+      },
+      "animal": {
+        "!type": "fn(a: ?)",
+        "!span": "1541[0:1541]-1547[0:1547]"
+      },
+      "character": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "1910[0:1910]-1919[0:1919]"
+      },
+      "floating": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "2205[0:2205]-2213[0:2213]"
+      },
+      "integer": {
+        "!type": "fn(a: ?|number) -> number",
+        "!span": "2697[0:2697]-2704[0:2704]"
+      },
+      "natural": {
+        "!type": "fn(a: number|?) -> number",
+        "!span": "2879[0:2879]-2886[0:2886]"
+      },
+      "hex": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "3160[0:3160]-3163[0:3163]"
+      },
+      "letter": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "3387[0:3387]-3393[0:3393]"
+      },
+      "string": {
+        "!type": "fn(a: number|?) -> string",
+        "!span": "3549[0:3549]-3555[0:3555]"
+      },
+      "capitalize": {
+        "!type": "fn(a: string) -> string",
+        "!span": "3741[0:3741]-3751[0:3751]"
+      },
+      "mixin": {
+        "!type": "fn(e: ?)",
+        "!span": "3822[0:3822]-3827[0:3827]"
+      },
+      "unique": {
+        "!type": "fn(a: fn(), e: number, i: exports.prototype.unique.!2) -> [?]",
+        "!span": "3900[0:3900]-3906[0:3906]"
+      },
+      "n": {
+        "!type": "fn(a: fn(a: number|?) -> string|fn(a: ?|number) -> number, e: number) -> [?]",
+        "!span": "4305[0:4305]-4306[0:4306]"
+      },
+      "pad": {
+        "!type": "fn(a: string, e: number, n: string) -> !0",
+        "!span": "4527[0:4527]-4530[0:4530]"
+      },
+      "pick": {
+        "!type": "fn(a: ?, e: ?) -> !0.<i>",
+        "!span": "4630[0:4630]-4634[0:4634]"
+      },
+      "pickone": {
+        "!type": "fn(a: [string]) -> !0.<i>",
+        "!span": "4821[0:4821]-4828[0:4828]"
+      },
+      "pickset": {
+        "!type": "fn(a: ?, e: ?) -> [?]",
+        "!span": "4980[0:4980]-4987[0:4987]"
+      },
+      "shuffle": {
+        "!type": "fn(a: ?) -> [?]",
+        "!span": "5250[0:5250]-5257[0:5257]"
+      },
+      "weighted": {
+        "!type": "fn(a: [string], e: [number], n: bool) -> !0.<i>",
+        "!span": "5410[0:5410]-5418[0:5418]"
+      },
+      "paragraph": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "5932[0:5932]-5941[0:5941]"
+      },
+      "sentence": {
+        "!type": "fn(a: number|exports.prototype.sentence) -> !0.punctuation",
+        "!span": "6062[0:6062]-6070[0:6070]"
+      },
+      "syllable": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "6277[0:6277]-6285[0:6285]"
+      },
+      "word": {
+        "!type": "fn(a: number|exports.prototype.word) -> string",
+        "!span": "6603[0:6603]-6607[0:6607]"
+      },
+      "age": {
+        "!type": "fn(a: exports.prototype.age.!0) -> number",
+        "!span": "6945[0:6945]-6948[0:6948]"
+      },
+      "birthday": {
+        "!type": "fn(a: exports.prototype.age.!0) -> string|?",
+        "!span": "7229[0:7229]-7237[0:7237]"
+      },
+      "cpf": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "7452[0:7452]-7455[0:7455]"
+      },
+      "cnpj": {
+        "!type": "fn() -> string",
+        "!span": "7838[0:7838]-7842[0:7842]"
+      },
+      "first": {
+        "!type": "fn(a: exports.prototype.first.!0)",
+        "!span": "8287[0:8287]-8292[0:8292]"
+      },
+      "profession": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "8459[0:8459]-8469[0:8469]"
+      },
+      "company": {
+        "!type": "fn()",
+        "!span": "8638[0:8638]-8645[0:8645]"
+      },
+      "gender": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "8708[0:8708]-8714[0:8714]"
+      },
+      "last": {
+        "!type": "fn(a: exports.prototype.last.!0)",
+        "!span": "8824[0:8824]-8828[0:8828]"
+      },
+      "israelId": {
+        "!type": "fn() -> string",
+        "!span": "8949[0:8949]-8957[0:8957]"
+      },
+      "mrz": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "9226[0:9226]-9229[0:9229]"
+      },
+      "name": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "10316[0:10316]-10320[0:10320]"
+      },
+      "name_prefixes": {
+        "!type": "fn(a: string) -> [?]",
+        "!span": "10586[0:10586]-10599[0:10599]"
+      },
+      "prefix": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "10884[0:10884]-10890[0:10890]"
+      },
+      "name_prefix": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "10943[0:10943]-10954[0:10954]"
+      },
+      "HIDN": {
+        "!type": "fn() -> string",
+        "!span": "11113[0:11113]-11117[0:11117]"
+      },
+      "ssn": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "11265[0:11265]-11268[0:11268]"
+      },
+      "name_suffixes": {
+        "!type": "fn() -> [?]",
+        "!span": "11535[0:11535]-11548[0:11548]"
+      },
+      "suffix": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "12223[0:12223]-12229[0:12229]"
+      },
+      "name_suffix": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "12282[0:12282]-12293[0:12293]"
+      },
+      "nationalities": {
+        "!type": "fn()",
+        "!span": "12421[0:12421]-12434[0:12434]"
+      },
+      "nationality": {
+        "!type": "fn()",
+        "!span": "12492[0:12492]-12503[0:12503]"
+      },
+      "android_id": {
+        "!type": "fn() -> string",
+        "!span": "12572[0:12572]-12582[0:12582]"
+      },
+      "apple_token": {
+        "!type": "fn() -> string",
+        "!span": "12718[0:12718]-12729[0:12729]"
+      },
+      "wp8_anid2": {
+        "!type": "fn()",
+        "!span": "12810[0:12810]-12819[0:12819]"
+      },
+      "wp7_anid": {
+        "!type": "fn() -> string",
+        "!span": "12877[0:12877]-12885[0:12885]"
+      },
+      "bb_pin": {
+        "!type": "fn() -> string",
+        "!span": "13026[0:13026]-13032[0:13032]"
+      },
+      "avatar": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "13086[0:13086]-13092[0:13092]"
+      },
+      "color": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "14050[0:14050]-14055[0:14055]"
+      },
+      "domain": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "16129[0:16129]-16135[0:16135]"
+      },
+      "email": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "16211[0:16211]-16216[0:16216]"
+      },
+      "fbid": {
+        "!type": "fn() -> string",
+        "!span": "16315[0:16315]-16319[0:16319]"
+      },
+      "google_analytics": {
+        "!type": "fn() -> string",
+        "!span": "16401[0:16401]-16417[0:16417]"
+      },
+      "hashtag": {
+        "!type": "fn() -> string",
+        "!span": "16532[0:16532]-16539[0:16539]"
+      },
+      "ip": {
+        "!type": "fn() -> string",
+        "!span": "16586[0:16586]-16588[0:16588]"
+      },
+      "ipv6": {
+        "!type": "fn() -> string",
+        "!span": "16740[0:16740]-16744[0:16744]"
+      },
+      "klout": {
+        "!type": "fn() -> number",
+        "!span": "16817[0:16817]-16822[0:16822]"
+      },
+      "semver": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "16883[0:16883]-16889[0:16889]"
+      },
+      "tlds": {
+        "!type": "fn() -> [string]",
+        "!span": "17148[0:17148]-17152[0:17152]"
+      },
+      "tld": {
+        "!type": "fn() -> string",
+        "!span": "18488[0:18488]-18491[0:18491]"
+      },
+      "twitter": {
+        "!type": "fn() -> string",
+        "!span": "18546[0:18546]-18553[0:18553]"
+      },
+      "url": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "18600[0:18600]-18603[0:18603]"
+      },
+      "port": {
+        "!type": "fn() -> number",
+        "!span": "18878[0:18878]-18882[0:18882]"
+      },
+      "locale": {
+        "!type": "fn(a: ?)",
+        "!span": "18946[0:18946]-18952[0:18952]"
+      },
+      "locales": {
+        "!type": "fn(a: ?)",
+        "!span": "19078[0:19078]-19085[0:19085]"
+      },
+      "address": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "19189[0:19189]-19196[0:19196]"
+      },
+      "altitude": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "19285[0:19285]-19293[0:19293]"
+      },
+      "areacode": {
+        "!type": "fn(a: exports.prototype.areacode.!0) -> string",
+        "!span": "19409[0:19409]-19417[0:19417]"
+      },
+      "city": {
+        "!type": "fn() -> string",
+        "!span": "19613[0:19613]-19617[0:19617]"
+      },
+      "coordinates": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "19691[0:19691]-19702[0:19702]"
+      },
+      "countries": {
+        "!type": "fn()",
+        "!span": "19775[0:19775]-19784[0:19784]"
+      },
+      "country": {
+        "!type": "fn(a: ?)",
+        "!span": "19838[0:19838]-19845[0:19845]"
+      },
+      "depth": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "19948[0:19948]-19953[0:19953]"
+      },
+      "geohash": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "20071[0:20071]-20078[0:20078]"
+      },
+      "geojson": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "20200[0:20200]-20207[0:20207]"
+      },
+      "latitude": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "20302[0:20302]-20310[0:20310]"
+      },
+      "longitude": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "20426[0:20426]-20435[0:20435]"
+      },
+      "phone": {
+        "!type": "fn(a: exports.prototype.areacode.!0) -> !0.formatted",
+        "!span": "20553[0:20553]-20558[0:20558]"
+      },
+      "postal": {
+        "!type": "fn() -> string",
+        "!span": "24694[0:24694]-24700[0:24700]"
+      },
+      "counties": {
+        "!type": "fn(a: ?)",
+        "!span": "24931[0:24931]-24939[0:24939]"
+      },
+      "county": {
+        "!type": "fn(a: ?)",
+        "!span": "25040[0:25040]-25046[0:25046]"
+      },
+      "provinces": {
+        "!type": "fn(a: exports.prototype.provinces.!0)",
+        "!span": "25112[0:25112]-25121[0:25121]"
+      },
+      "province": {
+        "!type": "fn(a: ?)",
+        "!span": "25223[0:25223]-25231[0:25231]"
+      },
+      "state": {
+        "!type": "fn(a: ?)",
+        "!span": "25350[0:25350]-25355[0:25355]"
+      },
+      "states": {
+        "!type": "fn(a: ?) -> [?]",
+        "!span": "25468[0:25468]-25474[0:25474]"
+      },
+      "street": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "25923[0:25923]-25929[0:25929]"
+      },
+      "street_suffix": {
+        "!type": "fn(a: ?)",
+        "!span": "26350[0:26350]-26363[0:26363]"
+      },
+      "street_suffixes": {
+        "!type": "fn(a: ?)",
+        "!span": "26453[0:26453]-26468[0:26468]"
+      },
+      "zip": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "26576[0:26576]-26579[0:26579]"
+      },
+      "ampm": {
+        "!type": "fn() -> string",
+        "!span": "26737[0:26737]-26741[0:26741]"
+      },
+      "date": {
+        "!type": "fn(a: exports.prototype.age.!0) -> string|?",
+        "!span": "26795[0:26795]-26799[0:26799]"
+      },
+      "hammertime": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "27531[0:27531]-27541[0:27541]"
+      },
+      "hour": {
+        "!type": "fn(a: exports.prototype.hour.!0) -> number",
+        "!span": "27597[0:27597]-27601[0:27601]"
+      },
+      "millisecond": {
+        "!type": "fn() -> number",
+        "!span": "27991[0:27991]-28002[0:28002]"
+      },
+      "second": {
+        "!type": "fn() -> number",
+        "!span": "28077[0:28077]-28083[0:28083]"
+      },
+      "minute": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "28058[0:28058]-28064[0:28064]"
+      },
+      "month": {
+        "!type": "fn(a: ?)",
+        "!span": "28332[0:28332]-28337[0:28337]"
+      },
+      "months": {
+        "!type": "fn()",
+        "!span": "28617[0:28617]-28623[0:28623]"
+      },
+      "timestamp": {
+        "!type": "fn() -> number",
+        "!span": "28735[0:28735]-28744[0:28744]"
+      },
+      "weekday": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "28840[0:28840]-28847[0:28847]"
+      },
+      "year": {
+        "!type": "fn(a: exports.prototype.year.!0) -> string",
+        "!span": "29033[0:29033]-29037[0:29037]"
+      },
+      "cc": {
+        "!type": "fn(a: ?)",
+        "!span": "29172[0:29172]-29174[0:29174]"
+      },
+      "cc_types": {
+        "!type": "fn()",
+        "!span": "29441[0:29441]-29449[0:29449]"
+      },
+      "cc_type": {
+        "!type": "fn(a: ?)",
+        "!span": "29502[0:29502]-29509[0:29509]"
+      },
+      "currency_types": {
+        "!type": "fn()",
+        "!span": "29804[0:29804]-29818[0:29818]"
+      },
+      "currency": {
+        "!type": "fn()",
+        "!span": "29877[0:29877]-29885[0:29885]"
+      },
+      "timezones": {
+        "!type": "fn()",
+        "!span": "29950[0:29950]-29959[0:29959]"
+      },
+      "timezone": {
+        "!type": "fn()",
+        "!span": "30013[0:30013]-30021[0:30021]"
+      },
+      "currency_pair": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "30081[0:30081]-30094[0:30094]"
+      },
+      "dollar": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "30279[0:30279]-30285[0:30285]"
+      },
+      "euro": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "30495[0:30495]-30499[0:30499]"
+      },
+      "exp": {
+        "!type": "fn(a: ?) -> ?|string",
+        "!span": "30592[0:30592]-30595[0:30595]"
+      },
+      "exp_month": {
+        "!type": "fn(a: exports.prototype.exp_month.!0)",
+        "!span": "30800[0:30800]-30809[0:30809]"
+      },
+      "exp_year": {
+        "!type": "fn() -> string",
+        "!span": "31004[0:31004]-31012[0:31012]"
+      },
+      "vat": {
+        "!type": "fn(a: ?)",
+        "!span": "31140[0:31140]-31143[0:31143]"
+      },
+      "iban": {
+        "!type": "fn() -> string",
+        "!span": "31254[0:31254]-31258[0:31258]"
+      },
+      "it_vat": {
+        "!type": "fn()",
+        "!span": "31519[0:31519]-31525[0:31525]"
+      },
+      "cf": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "31693[0:31693]-31695[0:31695]"
+      },
+      "pl_pesel": {
+        "!type": "fn()",
+        "!span": "32984[0:32984]-32992[0:32992]"
+      },
+      "pl_nip": {
+        "!type": "fn()",
+        "!span": "33247[0:33247]-33253[0:33253]"
+      },
+      "pl_regon": {
+        "!type": "fn()",
+        "!span": "33504[0:33504]-33512[0:33512]"
+      },
+      "note": {
+        "!type": "fn(a: ?)",
+        "!span": "33748[0:33748]-33752[0:33752]"
+      },
+      "midi_note": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "34075[0:34075]-34084[0:34084]"
+      },
+      "chord_quality": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "34176[0:34176]-34189[0:34189]"
+      },
+      "chord": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "34334[0:34334]-34339[0:34339]"
+      },
+      "tempo": {
+        "!type": "fn(a: ?) -> number",
+        "!span": "34414[0:34414]-34419[0:34419]"
+      },
+      "coin": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "34512[0:34512]-34516[0:34516]"
+      },
+      "d4": {
+        "!type": "fn() -> number",
+        "!span": "34577[0:34577]-34579[0:34579]"
+      },
+      "rpg": {
+        "!type": "fn(a: string, n: ?) -> [number]",
+        "!span": "34845[0:34845]-34848[0:34848]"
+      },
+      "guid": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "35335[0:35335]-35339[0:35339]"
+      },
+      "hash": {
+        "!type": "fn(a: number|?) -> string",
+        "!span": "35634[0:35634]-35638[0:35638]"
+      },
+      "luhn_check": {
+        "!type": "fn(a: ?) -> bool",
+        "!span": "35786[0:35786]-35796[0:35796]"
+      },
+      "luhn_calculate": {
+        "!type": "fn(a: number) -> number",
+        "!span": "35922[0:35922]-35936[0:35936]"
+      },
+      "md5": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "36086[0:36086]-36089[0:36089]"
+      },
+      "file": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "36420[0:36420]-36424[0:36424]"
+      },
+      "get": {
+        "!type": "fn(a: string)",
+        "!span": "167149[0:167149]-167152[0:167152]"
+      },
+      "mac_address": {
+        "!type": "fn(a: exports.prototype.mac_address.!0) -> string",
+        "!span": "167193[0:167193]-167204[0:167204]"
+      },
+      "normal": {
+        "!type": "fn(a: exports.prototype.normal.!0)",
+        "!span": "167463[0:167463]-167469[0:167469]"
+      },
+      "normal_pool": {
+        "!type": "fn(a: exports.prototype.normal.!0) -> !0.pool.<i>",
+        "!span": "167933[0:167933]-167944[0:167944]"
+      },
+      "radio": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "168208[0:168208]-168213[0:168213]"
+      },
+      "set": {
+        "!type": "fn(a: ?, e: ?)",
+        "!span": "168530[0:168530]-168533[0:168533]"
+      },
+      "tv": {
+        "!type": "fn(a: ?) -> string",
+        "!span": "168596[0:168596]-168598[0:168598]"
+      },
+      "mersenne_twister": {
+        "!type": "fn(a: number) -> exports.mt",
+        "!span": "168955[0:168955]-168971[0:168971]"
+      },
+      "blueimp_md5": {
+        "!type": "fn() -> exports.bimd5",
+        "!span": "169013[0:169013]-169024[0:169024]"
+      },
+      "d6": "exports.prototype.d4",
+      "d8": "exports.prototype.d4",
+      "d10": "exports.prototype.d4",
+      "d12": "exports.prototype.d4",
+      "d20": "exports.prototype.d4",
+      "d30": "exports.prototype.d4",
+      "d100": "exports.prototype.d4"
+    },
+    "!type": "fn(e: ?) -> !this",
+    "!span": "176420[0:176420]-176427[0:176427]",
+    "random": {
+      "!type": "fn() -> number",
+      "!span": "129[0:129]-135[0:135]"
+    },
+    "seed": {
+      "!type": "number",
+      "!span": "167[0:167]-171[0:171]"
+    },
+    "mt": {
+      "!span": "485[0:485]-487[0:487]"
+    },
+    "bimd5": {
+      "!span": "526[0:526]-531[0:531]"
+    }
+  },
+  "chance": {
+    "!type": "+exports",
+    "!span": "176571[0:176571]-176577[0:176577]"
+  }
+}

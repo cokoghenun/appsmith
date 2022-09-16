@@ -15,6 +15,7 @@ import { DataTreeEntity } from "entities/DataTree/dataTreeFactory";
 import { getType, Types } from "./TypeHelpers";
 import { ViewTypes } from "components/formControls/utils";
 import * as dateFns from "date-fns";
+import Chance from "chance";
 
 export type DependencyMap = Record<string, Array<string>>;
 export type FormEditorConfigs = Record<string, any[]>;
@@ -192,6 +193,13 @@ export const extraLibraries: ExtraLibrary[] = [
     version: "^2.29.2",
     docsURL: "https://github.com/date-fns/date-fns",
     displayName: "dateFns",
+  },
+  {
+    accessor: "chance",
+    lib: new Chance(),
+    version: "^1.1.8",
+    docsURL: "https://chancejs.com/",
+    displayName: "chance",
   },
 ];
 
